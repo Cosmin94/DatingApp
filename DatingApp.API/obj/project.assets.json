@@ -1145,27 +1145,36 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cosmin\\.nuget\\packages\\": {}
+    "C:\\Users\\cosmin.salca\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Leaning\\Demo\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "projectUniqueName": "E:\\Stuff\\Learning\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
       "projectName": "DatingApp.API",
-      "projectPath": "D:\\Leaning\\Demo\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
-      "packagesPath": "C:\\Users\\Cosmin\\.nuget\\packages\\",
-      "outputPath": "D:\\Leaning\\Demo\\DatingApp\\DatingApp.API\\obj\\",
+      "projectPath": "E:\\Stuff\\Learning\\DatingApp\\DatingApp.API\\DatingApp.API.csproj",
+      "packagesPath": "C:\\Users\\cosmin.salca\\.nuget\\packages\\",
+      "outputPath": "E:\\Stuff\\Learning\\DatingApp\\DatingApp.API\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Cosmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\cosmin.salca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "E:\\NugetLocal": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/genesisautomation/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -1210,7 +1219,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
