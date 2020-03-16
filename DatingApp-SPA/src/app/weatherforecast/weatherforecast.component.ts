@@ -7,15 +7,17 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./weatherforecast.component.css']
 })
 export class WeatherforecastComponent implements OnInit {
-  values: any;
+  weatherforecast: any;
   constructor(private http: HttpClient) {}
 
-  ngOnInit() {}
+  ngOnInit() {
+    this.getWeatherForecasts();
+  }
 
-  getValues() {
+  getWeatherForecasts() {
     this.http.get('http://localhost:5000/weatherforecast').subscribe(
       response => {
-        this.values = response;
+        this.weatherforecast = response;
       },
       error => {
         console.log(error);
